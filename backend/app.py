@@ -96,8 +96,8 @@ def create_app():
             print(f"⚠️ DB setup note: {e}")
 
     return app
-
-
+    
+app = create_app()
 if __name__ == "__main__":
     app = create_app()
     print("\n🌍 Lost & Found Smart Portal")
@@ -107,3 +107,4 @@ if __name__ == "__main__":
     print("👤 Admin: admin@lostfound.com / admin123")
     print("=" * 40 + "\n")
     app.run(debug=True, host="0.0.0.0", port=5000)
+    
