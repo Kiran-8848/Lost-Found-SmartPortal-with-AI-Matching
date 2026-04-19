@@ -3,8 +3,8 @@
  * Handles all HTTP requests to the backend
  */
 
-const API_BASE = 'http://localhost:5000/api';
-const UPLOADS_BASE = 'http://localhost:5000/uploads';
+const API_BASE = 'https://lost-found-ai-portal.onrender.com/api';
+const UPLOADS_BASE = 'https://lost-found-ai-portal.onrender.com/uploads';
 
 class API {
     /**
